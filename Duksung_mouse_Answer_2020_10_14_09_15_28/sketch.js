@@ -6,8 +6,8 @@ function draw() {
   // background(220);
   cursor(CROSS);
   rect(10, 10, 50, 50);
-  rect(mouseX, mouseY, 50, 50);
-  rect(10, 10, mouseX, mouseY);
+  //rect(mouseX, mouseY, 50, 50);
+  //rect(10, 10, mouseX, mouseY);
   print(mouseX, mouseY);
 }
 
